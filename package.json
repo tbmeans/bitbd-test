@@ -1,0 +1,28 @@
+{
+  "name": "bitbd-test",
+  "version": "1.0.0",
+  "description": "chess game",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbmeans/bitbd-test.git"
+  },
+  "keywords": [
+    "chess",
+    "bitboard",
+    "electron"
+  ],
+  "author": "Timothy B. Means",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbmeans/bitbd-test/issues"
+  },
+  "homepage": "https://github.com/tbmeans/bitbd-test#readme",
+  "devDependencies": {
+    "electron": "^29.0.1"
+  }
+}
