@@ -1,0 +1,26 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #333;
+	color: #777;
+	margin: 1.5rem;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(8, 3rem);
+  font-size: 2rem;
+  color: black;
+}
+
+#board > div {
+  height: 3rem;
+  text-align: center;
+}
+
+#board > .lite {
+  background-color: #888;
+}
+
+#board > .dark {
+  background-color: #444;
+}
